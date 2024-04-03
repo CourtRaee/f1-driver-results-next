@@ -2,5 +2,11 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
-  return <h1>test</h1>;
+  return (
+    <>
+      <section className="hero"></section>
+      <section className="driver-search"></section>
+      <section className="background-image"></section>
+    </>
+  );
 }
