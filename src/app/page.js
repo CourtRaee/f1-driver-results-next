@@ -4,11 +4,16 @@ import Hero from "./components/hero/hero";
 import DriverSearch from "./components/driver-search/driver-search";
 import BackgroundImage from "./components/background-image/background-image";
 
+import heroImage from "../../images/hero-image.jpg"
+
 export default function Page() {
   return (
     <>
       <section className="hero">
-        <Hero />
+        <Hero 
+          image={heroImage}
+          imgAlt={"hero-image"}
+        />
       </section>
 
       <section className="driver-search">

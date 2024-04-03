@@ -1,6 +1,7 @@
 /* Hero Mobile CSS */
 
 .hero-mobile {
-  width: 400px;
+  width: 100%;
   height: 380px;
+  object-fit: cover;
 }

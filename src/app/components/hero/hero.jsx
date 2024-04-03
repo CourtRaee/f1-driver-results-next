@@ -8,8 +8,6 @@ export default function Hero({ image, imgAlt }) {
       className="hero-mobile"
       src={image}
       alt={imgAlt}
-      width={400}
-      height={380}
     />
   );
 }
