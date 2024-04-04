@@ -7,6 +7,10 @@ export default function DriverSearch({ }) {
     <>
       <div className="driver-search-container">
         <p className="search-text">Search for your favourite drivers results:</p>
+        <input className="search-input"></input>
+      </div>
+      <div className="driver-search-button">
+        <button className="search-button-styles">Lights out and away we go ➡️</button>
       </div>
     </>
   )

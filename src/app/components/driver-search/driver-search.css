@@ -1,7 +1,32 @@
+.driver-search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
 .driver-search-container {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
 }
 
 .search-text {
     background-color: white;
+    margin: 0;
+}
+
+.search-input {
+    justify-content: center;
+}
+
+.driver-search-button {
+    display: flex;
+    padding-left: 30px;
+}
+
+.search-button-styles {
+    width: 200px;
+    height: 40px
 }
