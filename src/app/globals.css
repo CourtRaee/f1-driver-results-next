@@ -6,4 +6,6 @@ body.__className_aaf875 {
 
 main {
   background-color: white;
+  display: flex;
+  flex-direction: column;
 }
