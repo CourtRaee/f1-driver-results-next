@@ -1,3 +1,19 @@
 .footer {
   background-color: red;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px 10px 25px;
+}
+
+.footer-section-one {
+  display: flex;
+  align-items: center;
+}
+
+.footer-section-two {
+  color: white;
+}
+
+.footer-section-three {
+  color: white;
 }
