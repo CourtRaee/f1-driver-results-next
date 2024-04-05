@@ -5,6 +5,7 @@ import DriverSearch from "./components/driver-search/driver-search";
 import BackgroundImage from "./components/background-image/background-image";
 
 import heroImage from "../../images/hero-image.jpg"
+import backgroundImage from "../../images/background-image.jpg";
 
 export default function Page() {
   return (
@@ -21,7 +22,10 @@ export default function Page() {
       </section>
 
       <section className="background-image">
-        <BackgroundImage />
+        <BackgroundImage
+          image={backgroundImage}
+          imgAlt={"background-image"}
+        />
       </section>
     </>
   );
