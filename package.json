@@ -7,12 +7,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "reset-database": "node -r dotenv/config db/scripts/reset-database.js"
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
+    "next": "14.1.4",
+    "pg": "^8.11.5",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.1.4"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "eslint": "^8",
